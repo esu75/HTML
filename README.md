@@ -48,8 +48,10 @@ Open the Jupyter Notebook folder. You will work in this code as you follow the s
     a.	How many months exist on Mars?
     b.	How many Martian (and not Earth) days worth of data exist in the scraped dataset?
     c.	What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
+  	
        1.	Find the average minimum daily temperature for all of the months.
        2.	Plot the results as a bar chart.
+          
 4.	Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
   1.	Find the average daily atmospheric pressure of all the months.
   2.	Plot the results as a bar chart.
