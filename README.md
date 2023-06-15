@@ -20,25 +20,26 @@ Open the Jupyter Notebook. You will work in this code as you follow the steps be
 ## Part 2: Scrape and Analyze Mars Weather Data
 
 Open the Jupyter Notebook folder. You will work in this code as you follow the steps below to scrape and analyze Mars weather data.
+
 1.	Use automated browsing to visit the [Mars Temperature Data SiteLinks](https://github.com/user/repo/blob/branch/other_file.md). Inspect the page to identify which elements to scrape. 
 
 2.	Create a Beautiful Soup object and use it to scrape the data in the HTML table. Note that this can also be achieved by using the Pandas read_html function. However, use Beautiful Soup here to continue sharpening your web scraping skills.
    
 3.	Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
    
- 1.	id: the identification number of a single transmission from the Curiosity rover
+    id: the identification number of a single transmission from the Curiosity rover
     
- 3.	terrestrial_date: the date on Earth
+    terrestrial_date: the date on Earth
     
- 4.	sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars
+    sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars
     
- 5.	ls: the solar longitude
+    ls: the solar longitude
     
- 6.	month: the Martian month
+    month: the Martian month
      
- 7.	min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
+    min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
      
- 8.	pressure: The atmospheric pressure at Curiosity's location
+    pressure: The atmospheric pressure at Curiosity's location
      
 4.	Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
 5.	Analyze your dataset by using Pandas functions to answer the following questions:
