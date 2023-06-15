@@ -5,6 +5,7 @@ As you work on this project, remember that you’re strengthening the same core 
  This new project consists of two technical deliverables:
  
 •	Deliverable 1: Scrape titles and preview text from Mars news articles.
+
 •	Deliverable 2: Scrape and analyze Mars weather data, which exists in a table.
 
 ## Part 1: Scrape Titles and Preview Text from Mars News
